@@ -21,7 +21,7 @@ jobs:
       - name: Sync with Upstream
         run: |
           # 1. Setup the upstream remote pointing to the Red Hat source
-          git remote add upstream /terraform-redhat/terraform-provider-rhcs.git
+          git remote add upstream https://github.com/terraform-redhat/terraform-provider-rhcs.git
           
           # 2. Fetch all branches and tags from upstream
           git fetch upstream --tags

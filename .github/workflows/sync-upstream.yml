@@ -7,7 +7,8 @@ on:
 
 # Give the runner permission to push changes to your repo
 permissions:
-  contents: write  
+  contents: write
+  workflows: write
 
 jobs:
   sync:
